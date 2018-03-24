@@ -1,0 +1,68 @@
+body {
+  background-color: lightgrey;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 30px;
+}
+h1 {
+  font-size: 36px;
+  align-content: center;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+h4 {
+  font-size: 24px;
+  font-family: cursive;
+}
+p {
+  font-size: 14px;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  display: inline;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+button {
+  background-color: pink;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 2px;
+  padding: 10px;
+}
+input {
+  padding: 10px;
+  font: inherit;
+  border:0;
+}
+.quote {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.quote-item {
+  display: inline-grid;
+    align-items: center;
+}
+div.timetable{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto auto auto;
+}
+div.timetable-grid-item {
+  display: inline-grid;
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+li.timetable-details {
+  display: block;
+}
