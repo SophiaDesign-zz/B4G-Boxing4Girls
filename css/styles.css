@@ -6,7 +6,8 @@ body {
 }
 h1 {
   font-size: 36px;
-  align-content: center;
+  color: black;
+  text-align: center;
 }
 h2 {
   font-size: 24px;
@@ -30,7 +31,8 @@ ul {
 }
 li {
   display: inline;
-  padding-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   font-size: 14px;
 }
 button {
@@ -40,7 +42,7 @@ button {
   font-family: sans-serif;
   font-weight: 400;
   border: 0;
-  border-radius: : 5px;
+  border-radius: 5px;
   padding: 10px;
   margin-top: 10px;
 }
@@ -57,38 +59,74 @@ input {
   display: inline-grid;
     align-items: center;
 }
-div.timetable{
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: auto auto auto auto;
-}
-div.timetable-grid-item {
-  height: 450px;
-  /* background: url("../images/one.jpg"); */
-  background: url("https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=94badd3aa6de707adc6f4ebef5d20faa&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");
-  display: inline-grid;
+/* TIMETABLE */
+  div.timetable{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+  }
+/* TIMETABLE CARD */
+  div.timetable-grid-item {
+    height: 450px;
+    /* background: url("../images/one.jpg"); */
+    display: inline-grid;
+    /* background-size: contain; */
+    /* margin: 300px 0 0 0; */
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  /* .timetable-image {
+    background: url("../images/one.jpg");
+  } */
+
+/* TIMETABLE CARD TEXT */
+  div.timetable-details {
+    background-color: white;
+    display: block;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right: 0;
+    /* margin: 300px 0 0 0; */
+  }
+  li.timetable-details {
+    display: block;
+  }
+
+
+/* Timetable cards image backgrounds */
+#Mondays {
+  background: url("https://images.unsplash.com/photo-1514525263139-f7c8f10ae61d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ec2674f645ada2fc265dc291d5b4a6d9&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");
   background-size: contain;
-  /* margin: 300px 0 0 0; */
-  position: relative;
-  border-radius: 10px;
-  overflow: hidden;
+  background-position: 0 -80px;
 }
-
-/* .timetable-image {
-  background: url("../images/one.jpg");
-} */
-
-div.timetable-details {
-  background-color: white;
-  display: block;
-  padding: 12px 12px 12px 20px;
-  position: absolute;
-  bottom: 0;
-  left:0;
-  right: 0;
-  /* margin: 300px 0 0 0; */
+#Tuesdays {
+  background: url("https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=94badd3aa6de707adc6f4ebef5d20faa&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");
+  background-size: contain;
+  background-position: 0 -7px;
 }
-
-li.timetable-details {
-  display: block;
+#Fridays {
+  background: url("https://images.unsplash.com/photo-1509255929945-586a420363cf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1837886ce541e402e3945f937c3afe08&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");
+  background-size: contain;
+  background-position: 0 -30px;
+}
+#Thursdays {
+  background: url("https://images.unsplash.com/photo-1490225421893-2908ffad8593?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2b7d462989cbde19fa9f68a898521977&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");
+  background-size: contain;
+}
+#Wednesdays {
+  background: url("https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=41900ca14b1acd536efbaf79f09e2632&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");
+  background-size: contain;
+  background-position: 0 -10px;
+}
+#Sundays {
+  background: url("https://images.unsplash.com/photo-1499636169083-d8555e991375?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5cbecdeab06969920d02af729ff031ad&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");
+  background-size: contain;
+  background-position: 0 240px;
+}
+#Saturdays {
+  background: url("https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=351a08edec0a096c0ca18afe7d121a27&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");
+  background-size: contain;
 }
