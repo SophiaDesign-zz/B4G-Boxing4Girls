@@ -40,7 +40,7 @@ button {
   font-family: sans-serif;
   font-weight: 400;
   border: 0;
-  border-radius: 5px;
+  border-radius: : 5px;
   padding: 10px;
   margin-top: 10px;
 }
@@ -68,7 +68,7 @@ div.timetable-grid-item {
   background: url("https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=94badd3aa6de707adc6f4ebef5d20faa&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");
   display: inline-grid;
   background-size: contain;
-  margin: 300px 0 0 0;
+  /* margin: 300px 0 0 0; */
   position: relative;
   border-radius: 10px;
   overflow: hidden;
