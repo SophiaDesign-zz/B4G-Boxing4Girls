@@ -60,9 +60,21 @@ div.timetable{
 div.timetable-grid-item {
   display: inline-grid;
   background-color: white;
-  padding: 10px 30px;
   border-radius: 10px;
 }
+
+.timetable-image {
+  display: block;
+  margin: 0;
+  width: 350px;
+  height: 300px;
+}
+
+div.timetable-details {
+  display: block;
+  margin: 0 10px;
+}
+
 li.timetable-details {
   display: block;
 }
