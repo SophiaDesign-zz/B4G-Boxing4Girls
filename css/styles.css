@@ -10,10 +10,12 @@ h1 {
 }
 h2 {
   font-size: 24px;
+  margin: 0px;
 }
 h3 {
+  font-size: 14px;
   font-weight: bold;
-  font-size: 18px;
+  margin: 0px;
 }
 h4 {
   font-size: 24px;
@@ -23,7 +25,8 @@ p {
   font-size: 14px;
 }
 ul {
-  padding-left: 0;
+  padding: 0;
+  margin: 0;
 }
 li {
   display: inline;
@@ -31,13 +34,15 @@ li {
   font-size: 14px;
 }
 button {
-  background-color: pink;
+  background-color: rgb(180,0,0);
+  color: white;
   font-size: 14px;
   font-family: sans-serif;
-  font-weight: bold;
+  font-weight: 400;
   border: 0;
-  border-radius: 2px;
+  border-radius: 5px;
   padding: 10px;
+  margin-top: 10px;
 }
 input {
   padding: 10px;
@@ -58,21 +63,30 @@ div.timetable{
   grid-template-columns: auto auto auto auto;
 }
 div.timetable-grid-item {
+  height: 450px;
+  /* background: url("../images/one.jpg"); */
+  background: url("https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=94badd3aa6de707adc6f4ebef5d20faa&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");
   display: inline-grid;
-  background-color: white;
+  background-size: contain;
+  margin: 300px 0 0 0;
+  position: relative;
   border-radius: 10px;
+  overflow: hidden;
 }
 
-.timetable-image {
-  display: block;
-  margin: 0;
-  width: 350px;
-  height: 300px;
-}
+/* .timetable-image {
+  background: url("../images/one.jpg");
+} */
 
 div.timetable-details {
+  background-color: white;
   display: block;
-  margin: 0 10px;
+  padding: 12px 12px 12px 20px;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right: 0;
+  /* margin: 300px 0 0 0; */
 }
 
 li.timetable-details {
