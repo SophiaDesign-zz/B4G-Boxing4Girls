@@ -2,11 +2,22 @@ body {
   background-color: lightgrey;
   align-items: center;
   font-family: sans-serif;
-  padding: 30px;
+  /* padding: 30px; */
+  margin: 0;
 }
+header {
+  background: url("https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-0.3.5&s=08c91776df979b0db5a46d78d7011856&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb") center center / cover no-repeat;
+  /* background-size: cover;
+  height: 810px; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 h1 {
-  font-size: 36px;
+  font-size: 48px;
   color: black;
+  font-weight: 300;
   text-align: center;
 }
 h2 {
@@ -51,6 +62,12 @@ input {
   font: inherit;
   border:0;
 }
+img.menu {
+  background-color: rgb(180,0,0);
+  padding: 5px;
+  border-radius: 100%;
+  margin: 30px;
+}
 .quote {
   display: grid;
   grid-template-columns: auto auto;
@@ -59,11 +76,16 @@ input {
   display: inline-grid;
     align-items: center;
 }
+div.title {
+  margin-top: 830px;
+  margin-left: 50px;
+}
 /* TIMETABLE */
   div.timetable{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: auto auto auto auto;
+    padding: 0 50px;
   }
 /* TIMETABLE CARD */
   div.timetable-grid-item {
@@ -129,4 +151,15 @@ input {
 #Saturdays {
   background: url("https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=351a08edec0a096c0ca18afe7d121a27&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");
   background-size: contain;
+    background-position: 0 -25px;
+}
+#scroll{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  margin: 30px;
 }
