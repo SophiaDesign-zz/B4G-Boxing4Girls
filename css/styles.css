@@ -1,5 +1,5 @@
 body {
-  background-color: lightgrey;
+  background-color: rgb(200,200,210);
   align-items: center;
   font-family: sans-serif;
   /* padding: 30px; */
@@ -159,7 +159,6 @@ div.title {
   right: 0;
   left: 0;
   color: white;
-  font-weight: 400;
   text-align: center;
   margin: 30px;
 }
