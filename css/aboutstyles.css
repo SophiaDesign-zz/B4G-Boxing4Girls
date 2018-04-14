@@ -1,0 +1,83 @@
+body {
+  padding-top: 70px;
+  background-color: rgb(200,200,210);
+  align-items: center;
+  font-family: sans-serif;
+  /* padding: 30px; */
+  margin: 0;
+}
+h1 {
+  font-size: 48px;
+  color: black;
+  font-weight: 300;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: sans-serif;
+  margin: 0px;
+}
+h3 {
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 0px;
+}
+h4 {
+  font-size: 24px;
+  font-family: cursive;
+}
+
+p1 {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-color: black;
+  font-weight: 5500;
+}
+
+/* About Us */
+
+.aboutus {
+  font-size: 46px;
+}
+
+.box1 {
+  background-color: white;
+  marign-left: 20px;
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+/* defining size of image */
+.sizing1 {
+  width:559px;
+  height:373px;
+  border:2px>
+}
+
+/* creating hover */
+#wrapper p {
+  #wrapper .text {
+  position:relative;
+  bottom:30px;
+  left:0px;
+  visibility:hidden;
+  }
+
+  #wrapper:hover .text {
+  visibility:visible;
+  }
+
+#imagethree
+background-image: url("./images/three.jpg")
+background-size: contain;
+
+/* contact */
+.contactus {
+text-align: right;
+position: relative;
+padding: 10px 10px 10px 10px;
+}
