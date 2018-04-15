@@ -135,18 +135,6 @@ div.title {
     overflow: hidden;
   }
 
-  /* About Us */
-
-  .aboutus {
-    font-size: 46px;
-  }
-
-  .box1 {
-    background-color: white;
-    border-radius: 20px;
-    padding-bottom: 20px;
-  }
-
   /*Navigation */
   .navbar-inverse {
   }
@@ -254,7 +242,3 @@ div.title {
   #wrapper:hover .text {
   visibility:visible;
   }
-
-#imagethree
-background-image: url(images/three.jpg)
-background-size: contain;
