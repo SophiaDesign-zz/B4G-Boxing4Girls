@@ -2,102 +2,85 @@
 
 <html>
 <head>
-<!-- link to Bootstrap and main CSS -->
-  <link href='css/bootstrap.min.css' rel='stylesheet'>
+  <!-- <link href='css/bootstrap.min.css' rel='stylesheet'> -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/aboutstyles.css">
-<!-- link to JQuery CDN and JS Bootstrap -->
-  <script
-  src="http://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <title>About Us</title>
 </head>
 
 <body>
-  <!-- setting up a nav bar -->
-  <!-- heading menu -->
-  <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">B4G Logo</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="#">CONTACT US</a></li>
+<!-- heading menu -->
+    <div>
+      <ul>
+       <li><img src="" alt="logo"></li>
+       <li><a href="index.html" class="menu">Home</a></li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
+    </div>
 <!-- About Us section -->
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-6 box1">
-      <div>
-      <h1>About Boxing4Girls</h1>
-      </div>
-      <div>
-      <p1>Set up in June 2015, Boxing4Girls has been bringing women together in a friendly and welcoming environment to learn a new skill and make new friends for over 2 years.
-      <br>
-      <br>
-          Our instructors have over 15 years experience in boxing and personal training. We can teach you the proper technique for throwing a punch and the footwork to make sure you can avoid them.
-          Our transportable punch bags mean that we can set up and run our classes anywhere; so we chose London parks!
-      <br>
-      <br>
-          By holding our classes in London's parks we aim to make boxing classes more accessible and less intimidating to take part in. This means no gym joining fees and even no need to have ever put on boxing gloves before!
-      <br>
-      <br>
-          Our sessions are tailored to both beginners and seasoned professionals, check out our classes and meet our trainers to find out more.
-      </p1>
+  <h1>About Us</h1>
+<div>
+    <p1>Set up in 2015, Boxing4Girls has been bringing women together in a friendly and welcoming environment to learn a new skill and make new friends for over 2 years.
+      We utilise London's parks to make boxing classes more accessible and less intimidating to take part in. This means no gym joining fees and even no need to have ever put on boxing gloves before!
+    <br>
+    <br>
+      Our sessions are tailored to both beginners and seasoned professionals, check out our classes and meet our trainers to find out more.
+    </p1>
+  </div>
+
+<!-- Trainers cards -->
+
+  <div class="trainers">
+    <div id="Trainer1" class="trainer-grid-item">
+      <div class="timetable-details">
+        <ul>
+          <li class="timetable-details"><h2>Trainer 1</h2></li>
+          <li class="timetable-details"><p>Description of the class and why this is a fun this to do. It is also very empowering and great for building communities blablabla more placeholder text here.</p></li>
+        </ul>
       </div>
     </div>
-    <div class="col-sm-6">
-        <img src="./images/three.jpg" alt="About Photo" class="sizing1">
+    <div id="Trainer2" class="trainer-grid-item">
+      <div class="timetable-details">
+        <ul>
+          <li class="timetable-details"><h2>Trainer2</h2></li>
+          <li class="timetable-details"><p>Description of the class and why this is a fun this to do. It is also very empowering and great for building communities blablabla more placeholder text here.</p></li>
+        </ul>
+      </div>
+    </div>
+    <div id="Trainer3" class="trainer-grid-item">
+      <div class="timetable-details">
+        <ul>
+          <li class="timetable-details"><h2>Trainer3</h2></li>
+          <li class="timetable-details"><p>Description of the class and why this is a fun this to do. It is also very empowering and great for building communities blablabla more placeholder text here.</p></li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
 
-<!-- Meet Our Trainers section -->
-<br>
-<br>
-<br>
-<h2>Meet Our Trainers</h2>
-<!-- creating a grid with three columns-->
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-4">
-      <a href="./images/one.jpg"><img src="./images/one.jpg" alt="Lucy" style="width:250px;height:300px;border:2px" class="img-rounded"></a>
-      <div class="caption">
-        <h3>Lucy</h3>
-        <p>Lucy discovered boxing as a teenager and quickly fell in love with the sport. But she soon realised that many women were put off trying boxing because it was seen as a male dominated sport. She set up Boxing4Girls in 2015 and has been encoraging more women to try boxing in a friendly and accessible environment ever since.</p1>
-      </div> <!--closing caption-->
-  </div> <!--closing column-->
-    <div class="col-sm-4">
-      David
-      <img src="./images/two.jpg" alt="David" style="width:250px;height:300px;border:2px" class="img-rounded">
-    <!-- adding credit for image -->
-      </div>
-    <div class="col-sm-4">
-      Sarah
-    </div>
-</div>
-
+    <!-- Meet Our Trainers section -->
+      <!-- <div id="trainers"> -->
+        <!-- <h2>Meet Our Trainers</h2> -->
+    <!-- creating a grid with three columns-->
+      <!-- <div class="row"> -->
+        <!-- <div class="col-sm-4">
+          Lucy
+          <img src="./images/one.jpg" alt="Lucy" style="width:250px;height:300px;border:2px" class="img-rounded">
+        <!- adding credit for image -->
+          <!-- <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@spochatun?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Svetlana Pochatun"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Svetlana Pochatun</span></a>
+        <!-- </div>
+        <div class="col-sm-4">
+          David
+          <img src="./images/two.jpg" alt="David" style="width:250px;height:300px;border:2px" class="img-rounded">
+        <!- adding credit for image -->
+          <!-- <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@chrisslozan?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Cristian Lozan"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Cristian Lozan</span></a>
+        <!-- </div>
+        <div class="col-sm-4">
+          Sarah
+        </div> -->
+    <!-- </div> -->
 <!-- Newsletter Sign Up -->
 <br>
-<div class="col-sm-6">
+<div>
   <h2>Sign up for Our Newsletter</h2>
 <form class="form-horizontal">
   <div class="form-group">
@@ -129,7 +112,7 @@
 </form>
 </div>
 <!-- Contact Information -->
-<div class="col-sm-6 contactus">
+<div>
   <h2>Contact Us</h2>
   <address>
     <strong>Boxing4Girls</strong><br>
