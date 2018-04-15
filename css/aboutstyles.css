@@ -48,17 +48,6 @@ p1 {
   padding-bottom: 20px;
 }
 
-/*Navigation */
-.navbar-inverse {
-}
-#logo {
-height: 30px;
-}
-img.menu {
-  background-color: rgb(180,0,0);
-  border-radius: 100%;
-}
-
 /* defining size of image */
 .sizing1 {
   width:559px;
@@ -84,14 +73,9 @@ img.menu {
 background-image: url(images/three.jpg)
 background-size: contain;
 
-/* Contact */
+/* contact */
 .contactus {
 text-align: right;
 position: relative;
 padding: 10px 10px 10px 10px;
-}
-
-.btn-newsletter {
-  background-color: rgb(180,0,0);
-  color: white;
 }
