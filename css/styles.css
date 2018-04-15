@@ -1,5 +1,5 @@
 body {
-  padding-top: 70px;
+  padding-top: 61px;
   background-color: rgb(200,200,210);
   align-items: center;
   font-family: sans-serif;
@@ -20,10 +20,16 @@ h1 {
   color: black;
   font-weight: 300;
   text-align: center;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
 }
 h2 {
   font-size: 24px;
   margin: 0px;
+  display: block;
+  font-weight: bold;
+  color:black;
+  padding-bottom:10px;
 }
 h3 {
   font-size: 14px;
@@ -36,6 +42,9 @@ h4 {
 }
 p {
   font-size: 14px;
+  line-height: 1.2em;
+  margin: 10px,0px,0px,10px;
+  color: black;
 }
 ul {
   padding: 0;
@@ -115,6 +124,7 @@ div.title {
   }
   li.timetable-details {
     display: block;
+    line-height: 1.1;
   }
 /* TRAINERS GRID */
   div.trainers{
@@ -138,15 +148,16 @@ div.title {
   /*Navigation */
   .navbar-inverse {
   }
-  #logo {
-  height: 46px;
-  margin-top: -8px;
-  }
+
   img.menu {
     background-color: rgb(180,0,0);
     border-radius: 100%;
   }
 
+  /* About Us */
+  .about1 {
+    padding:50px,10px,10px,50px;
+  }
   /* defining size of image */
   .sizing1 {
     width:559px;
@@ -166,6 +177,12 @@ div.title {
     background-color: rgb(180,0,0);
     color: white;
   }
+
+/* navbar image */
+#logo {
+height: 46px;
+margin-top: -8px;
+}
 
 /* Timetable cards image backgrounds */
 #Mondays {
@@ -239,6 +256,10 @@ div.title {
   visibility:hidden;
   }
 
-  #wrapper:hover .text {
+#wrapper:hover .text {
   visibility:visible;
   }
+
+#title1 {
+padding: 10,0,0,10px;
+}
