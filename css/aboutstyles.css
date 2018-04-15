@@ -81,7 +81,7 @@ img.menu {
   }
 
 #imagethree
-background-image: url("./images/three.jpg")
+background-image: url(images/three.jpg)
 background-size: contain;
 
 /* Contact */

@@ -135,6 +135,49 @@ div.title {
     overflow: hidden;
   }
 
+  /* About Us */
+
+  .aboutus {
+    font-size: 46px;
+  }
+
+  .box1 {
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 20px;
+  }
+
+  /*Navigation */
+  .navbar-inverse {
+  }
+  #logo {
+  height: 30px;
+  }
+  img.menu {
+    background-color: rgb(180,0,0);
+    border-radius: 100%;
+  }
+
+  /* defining size of image */
+  .sizing1 {
+    width:559px;
+    height:373px;
+    border:2px;
+    border-radius: 20px;
+  }
+
+  /* Contact */
+  .contactus {
+  text-align: right;
+  position: relative;
+  padding: 10px 10px 10px 10px;
+  }
+
+  .btn-newsletter {
+    background-color: rgb(180,0,0);
+    color: white;
+  }
+
 /* Timetable cards image backgrounds */
 #Mondays {
   background: url("https://images.unsplash.com/photo-1518605360659-2aa9659ef66d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a779ed25b9e2db4fd26172c2ecc3a338&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");
@@ -197,3 +240,20 @@ div.title {
   background-size: cover;
     background-position: 0 -120px;
 }
+
+/* creating hover */
+#wrapper p {
+  #wrapper .text {
+  position:relative;
+  bottom:30px;
+  left:0px;
+  visibility:hidden;
+  }
+
+  #wrapper:hover .text {
+  visibility:visible;
+  }
+
+#imagethree
+background-image: url(images/three.jpg)
+background-size: contain;
