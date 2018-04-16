@@ -115,7 +115,7 @@ div.title {
 }
 
 div.about-title{
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 /* TIMETABLE GRID*/
@@ -194,7 +194,7 @@ div.about-title{
   /* About Us */
   .aboutone {
     padding-top: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 
   /* defining size of image */
