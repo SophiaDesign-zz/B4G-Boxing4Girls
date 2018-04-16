@@ -246,7 +246,7 @@ div.container {
 }
 
   /* footer */
-  .footer {
+/*  .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -256,24 +256,33 @@ div.container {
     border-top-width: 2px;
     color: white;
     text-align: left;
+    } */
+
+   #wrap {
+      min-height: 100%;
     }
 
-  /*  #wrap {
-      min-height: 100%;
-    } */
-
-  /*  #main {
+   #main {
       overflow:auto;
-      padding-bottom:150px; /* this needs to be bigger than footer height*/
-    } */
+      padding-bottom:40px; /* this needs to be bigger than footer height*/
+    }
 
-  /*  .footer {
+   .footer {
       position: relative;
-      margin-top: -150px; /* negative value of footer height */
-      height: 150px;
+      margin-top: -40px; /* negative value of footer height */
+      height: 40px;
       clear:both;
-      padding-top:20px;
-    } */
+      padding-top:10px;
+      background-color: #222;
+      border-color: #080808;
+      border-top-width: 2px;
+      width: 100%;
+    }
+
+    .ftext {
+      color: white;
+      padding-left: 10px;
+    }
 
 /* navbar image */
 #logo {
