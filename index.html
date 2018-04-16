@@ -51,7 +51,7 @@
 <!-- hero image-video -->
   <div>
     <img src="" alt="full-bleed promo image/video">
-    <a href="">Scroll Down</a>
+    <a id="scroll">Scroll Down</a>
   </div>
 <!-- Class timetable -->
   <div class="title">
@@ -145,31 +145,75 @@
   </div>
 
   <!--map-->
-  <div class="container">
-    <div class="row col-sm-12 loc">
+  <div class="title-2">
       <h1>Our Locations</h1>
-      <div class="locpara">
       <p>Find us at our main location of Victoria Park every Wednesday and Saturday evening. Our other locations change regularly so check back to find out where we will be next.</p>
-    </div>
+  </div>
+  <br>
   <div class="mapouter">
     <div class="gmap_canvas">
-      <iframe width="800" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=victoria park london&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+      <iframe width=100% height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=victoria park london&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
       </iframe>
-        </div>
+    </div>
     <a href="https://www.crocothemes.net">crocothemes.net</a>
-    <style>.mapouter{overflow:hidden;height:600px;width:800px;}.gmap_canvas {background:none!important;height:600px;width:800px;}</style>
+    <style>.mapouter{overflow:hidden;height:600px;width:100%;}.gmap_canvas {background:none!important;height:600px;width:100%;}</style>
   </div>
 
-  <!-- Quote and image -->
-    <div class="quote">
-      <ul>
-        <li class="quote-item">
-          <div><h4>"Place Quotes Here"</h4></div>
-          <div><input type="email" placeholder="E-mail"><button>Subscribe</button></div>
-        </li>
-        <li class="quote-item"><img src="" alt="image for person with quote"></li>
-      </ul>
-    </div>
+  <!-- Newsletter Sign Up -->
+<br>
+<br>
+<div class="container">
+  <div class="row col-sm-8 loc">
+    <h2>Sign up for Our Newsletter</h2>
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label for="exampleInputName2" class="col-sm-2 control-label">Full Name</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="exampleInputName2" placeholder="Full Name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Contact me about new offers discounts from Boxing4Girls
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-default">Sign up</button>
+        </div>
+      </div>
+    </form>
+  </div>
+<!-- Contact Information -->
+<div class="row col-sm-1 loc">
+</div>
+<div class="row col-sm-3 loc">
+      <h2>Contact Us</h2>
+      <address>
+        <strong>Boxing4Girls</strong><br>
+        Level 39<br>
+        One Canada Square<br>
+        Canary Wharf<br>
+      </address>
+      <address>
+        <strong>Boxing4Girls</strong><br>
+        <a href="mailto:Boxing4Girls">hello@Boxing4Girls.co.uk</a>
+      </address>
+  </div>
+</div>
+
+
+
   <script>
     $("button").on("click", function(){
     alert("This class has been added to your calendar!")
