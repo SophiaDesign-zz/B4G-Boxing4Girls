@@ -6,6 +6,7 @@ body {
   /* padding: 30px; */
   margin: 0;
 }
+
 header {
   background: url("https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-0.3.5&s=08c91776df979b0db5a46d78d7011856&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb") center center / cover no-repeat;
   /* background-size: cover;
@@ -23,6 +24,7 @@ h1 {
   margin-top: 0.67em;
   margin-bottom: 0.67em;
 }
+
 h2 {
   font-size: 24px;
   margin: 0px;
@@ -31,31 +33,37 @@ h2 {
   color:black;
   padding-bottom:10px;
 }
+
 h3 {
   font-size: 14px;
   font-weight: bold;
   margin: 0px;
 }
+
 h4 {
   font-size: 24px;
   font-family: cursive;
 }
+
 p {
   font-size: 14px;
   line-height: 1.2em;
   margin: 10px,0px,0px,10px;
   color: black;
 }
+
 ul {
   padding: 0;
   margin: 0;
 }
+
 li {
   display: inline;
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 14px;
 }
+
 button {
   background-color: rgb(180,0,0);
   color: white;
@@ -67,28 +75,34 @@ button {
   padding: 10px;
   margin-top: 10px;
 }
+
 input {
   padding: 10px;
   font: inherit;
   border:0;
 }
+
 img.menu {
   height:20px;
   background-color: rgb(180,0,0);
   border-radius: 100%;
 }
+
 .quote {
   display: grid;
   grid-template-columns: auto auto;
 }
+
 .quote-item {
   display: inline-grid;
     align-items: center;
 }
+
 div.title {
   margin-top: 830px;
   margin-left: 50px;
 }
+
 /* TIMETABLE GRID*/
   div.timetable{
     display: grid;
@@ -96,6 +110,7 @@ div.title {
     grid-template-columns: auto auto auto auto;
     padding: 0 50px;
   }
+
 /* TIMETABLE CARD */
   div.timetable-grid-item {
     height: 450px;
@@ -122,17 +137,20 @@ div.title {
     right: 0;
     /* margin: 300px 0 0 0; */
   }
+
   li.timetable-details {
     display: block;
     line-height: 1.1;
   }
+
 /* TRAINERS GRID */
   div.trainers{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: auto auto auto;
-    padding: 0 50px;
+    padding: 0 50px 100px;
   }
+
 /* TRAINER CARD */
   div.trainer-grid-item {
     height: 450px;
@@ -145,19 +163,18 @@ div.title {
     overflow: hidden;
   }
 
-  /*Navigation */
-  .navbar-inverse {
-  }
-
+  /* Navigation Bar */
   img.menu {
     background-color: rgb(180,0,0);
     border-radius: 100%;
   }
 
   /* About Us */
-  .about1 {
-    padding:50px,10px,10px,50px;
+  .aboutone {
+    padding-top: 40px;
+    padding-bottom: 100px;
   }
+
   /* defining size of image */
   .sizing1 {
     width:559px;
@@ -166,17 +183,48 @@ div.title {
     border-radius: 20px;
   }
 
+  /* Newsletter and Contact */
+  .end {
+    padding-bottom: 80px;
+  }
+
   /* Contact */
   .contactus {
-  text-align: center;
+  text-align: left;
   position: relative;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 50px;
   }
 
   .btn-newsletter {
     background-color: rgb(180,0,0);
     color: white;
   }
+
+  /* Location */
+  .loc {
+    padding: 100px,0,0,100px;
+    text-align: left;
+  }
+
+  .locpara {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.2em;
+    font-size: 30px;
+  }
+
+  /* footer */
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #222;
+    border-color: #080808;
+    border-top-width: 2px;
+    color: white;
+    text-align: left;
+    }
 
 /* navbar image */
 #logo {
