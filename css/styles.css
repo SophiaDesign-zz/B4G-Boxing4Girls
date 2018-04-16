@@ -88,7 +88,7 @@ input {
 }
 
 img.menu {
-  height:20px;
+  height:30px;
   background-color: rgb(180,0,0);
   border-radius: 100%;
 }
@@ -170,6 +170,13 @@ div.title-2{
     position: relative;
     border-radius: 10px;
     overflow: hidden;
+  }
+
+  /* Calendar Button */
+  .btn-cal {
+      background-color: rgb(180,0,0);
+      color: white;
+    }
   }
 
   /* Navigation Bar */
