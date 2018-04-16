@@ -17,11 +17,15 @@ header {
   height: 100%;
 }
 
+a {
+  color: red;
+}
+
 h1 {
   font-size: 48px;
   color: black;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
   margin-top: 0.67em;
   margin-bottom: 0.67em;
 }
@@ -102,6 +106,10 @@ img.menu {
 div.title {
   margin-top: 830px;
   margin-left: 50px;
+}
+
+div.title-2{
+    margin-left: 50px;
 }
 
 /* TIMETABLE GRID*/
@@ -213,6 +221,16 @@ div.title {
     line-height: 1.2em;
     font-size: 30px;
   }
+div.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.form-group{
+  padding: 10px;
+}
 
   /* footer */
   .footer {
@@ -248,6 +266,10 @@ div.title {
 #logo {
 height: 46px;
 margin-top: -8px;
+}
+
+#scroll {
+  color: white;
 }
 
 /* Timetable cards image backgrounds */
@@ -329,3 +351,15 @@ margin-top: -8px;
 #title1 {
 padding: 10,0,0,10px;
 }
+
+@media (min-width: 1200px)
+.container {
+    width: 100%;
+}
+@media (min-width: 992px)
+.container {
+    width: 100%;
+}
+@media (min-width: 768px)
+.container {
+    width: 100%;
