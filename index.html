@@ -45,14 +45,13 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-
-    <div id="scroll"><h2>Scroll Down<h2></div>
   </header>
-<!-- hero image-video -->
-  <div>
-    <img src="" alt="full-bleed promo image/video">
+
+  <!-- hero image-video -->
+  <div class="hero-image">
     <a id="scroll">Scroll Down</a>
   </div>
+
 <!-- Class timetable -->
   <div class="title">
     <h1>Our Weekly Timetable</h1>
@@ -145,7 +144,7 @@
   </div>
 
   <!--map-->
-  <div class="title-2">
+  <div class="title">
       <h1>Our Locations</h1>
       <p>Find us at our main location of Victoria Park every Wednesday and Saturday evening. Our other locations change regularly so check back to find out where we will be next.</p>
   </div>
@@ -229,6 +228,7 @@
     $("button.btn-newsletter").on("click", function(){
     alert("Thank you for signing up to our newsletter!")
     });
+    $('.hero-image').css('min-height', window.innerHeight);
   </script>
 </body>
 </html>
