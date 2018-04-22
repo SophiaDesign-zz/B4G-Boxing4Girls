@@ -284,6 +284,14 @@ div.container {
       padding-left: 10px;
     }
 
+/*responsiveness of table for mobile */
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+        }
+    }
+
 /* navbar image */
 #logo {
 height: 46px;
