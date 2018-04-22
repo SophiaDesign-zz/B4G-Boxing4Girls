@@ -7,6 +7,8 @@
     <!-- <link href='css/bootstrap.css' rel='stylesheet'> -->
     <link href='css/bootstrap.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- AddEvent theme css -->
+    <link rel="stylesheet" href="css/theme2.css" type="text/css" media="screen" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- link to JQuery CDN and JS Bootstrap -->
       <script
@@ -14,6 +16,8 @@
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous"></script>
       <script src="js/bootstrap.min.js"></script>
+      <!-- AddEvent script for add to calendar button-->
+      <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 </head>
 
 <body>
@@ -65,7 +69,19 @@
           <li class="timetable-details"><b>Trainer:</b> Lucy or David</li>
           <li class="timetable-details"><b>Time:</b> 17:30 - 18:30</li>
           <li class="timetable-details"><b>Location:</b> Victoria Park, Postcode, London, UK</li>
-          <li class="timetable-details"><button class="btn-cal">Add to calendar</button></li>
+          <!-- <li class="timetable-details"><button class="btn-cal">Add to calendar</button></li> -->
+          <!-- Button code -->
+          <li class="timetable-details">
+            <div title="Add to Calendar" class="addeventatc">
+                Add to Calendar
+                <span class="start">05/06/2018 08:00 AM</span>
+                <span class="end">05/06/2018 10:00 AM</span>
+                <span class="timezone">Europe/London</span>
+                <span class="title">Boxing4Girls Class</span>
+                <span class="description">Description of the event</span>
+                <span class="location">Location of the event</span>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
